@@ -60,7 +60,7 @@ public class SoundListener implements Listener {
 	public void onBlockPlace(BlockPlaceEvent e) {
 		Player player = e.getPlayer();
 		if (Via.getAPI().getPlayerVersion(player)>47) return;
-		playBlockPlaceSound(player, e.getBlock());
+		//playBlockPlaceSound(player, e.getBlock());
 	}
 
 	private void onItemPickUp(Player player) {
